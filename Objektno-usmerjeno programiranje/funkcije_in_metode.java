@@ -8,7 +8,6 @@ void pozdravi(String ime) {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Metode:
 // Metode so funkcije, ki so definirane znotraj razreda.
 
@@ -19,7 +18,6 @@ public class Main {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Vračanje vrednosti
 // Funkcije lahko vračajo vrednosti.
 
@@ -32,7 +30,6 @@ String pozdravi(String ime) {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Argumenti funkcije:
 // Funkcije sprejemajo argumente (parametre),
 // ki jih lahko uporabljamo v telesu funkcije.
@@ -42,7 +39,6 @@ void pozdravi(String ime) {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Overload funkcij:
 // Definiramo lahko več funkcij z istim imenom, 
 // vendar z različnim številom ali tipom argumentov. 
@@ -57,7 +53,6 @@ void pozdravi(String ime, String priimek) {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Rekurzija:
 // Funkcija lahko kliče sama sebe, kar imenujemo rekurzija.
 
@@ -69,7 +64,6 @@ int fib(int n) {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Statične metode:
 // Ko je beseda "static" uporabljena v definiciji metode (na primer public static void myMethod()), 
 // pomeni, da metoda pripada razredu samemu, ne pa tudi posameznim primerkom razreda. 
@@ -87,7 +81,6 @@ public class Calculator {
 int rezultat = Calculator.add(5, 3);
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Statične spremenljivke:
 // Ko je beseda "static" uporabljena v definiciji spremenljivke (na primer public static int myVar;),
 // pomeni, da spremenljivka pripada razredu samemu, ne pa tudi posameznim primerkom razreda.
@@ -100,7 +93,6 @@ public class Counter {
 Counter.count++;
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Statični blok kode:
 // Ko je beseda "static" uporabljena v definiciji bloka kode (na primer static { ... }),
 // pomeni, da se bo ta blok kode izvedel samo enkrat, ko se bo razred naložil v pomnilnik.
@@ -111,5 +103,3 @@ public class MyStaticClass {
         System.out.println("Statični konstruktor se izvaja.");
     }
 }
-
-//////////////////////////////////////////////////////////////////////////////////////

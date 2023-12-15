@@ -19,7 +19,6 @@ public class Program {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Private (zasebno):
 // Če deklarirate spremenljivko ali metodo kot "private",
 // je ta dostopna samo iz razreda, v katerem je bila deklarirana.
@@ -78,7 +77,6 @@ public class Program {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Protected (zaščiteno):
 // Če deklarirate spremenljivko ali metodo kot "protected",
 // je ta dostopna samo iz razreda, v katerem je bila deklarirana,
@@ -109,7 +107,6 @@ public class Program {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Internal (notranje):
 // Če deklarirate spremenljivko ali metodo kot "internal",
 // je ta dostopna samo iz trenutnega projekta (assembly).
@@ -122,7 +119,6 @@ public class Oseba {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Protected Internal (zaščiteno notranje):
 // Če deklarirate spremenljivko ali metodo kot "protected internal",
 // je ta dostopna iz trenutnega projekta (assembly) in iz podrazredov tega razreda (assembly).
@@ -135,7 +131,6 @@ public class Oseba {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Private Protected (zasebno zaščiteno):
 // Če deklarirate spremenljivko ali metodo kot "private protected",
 // je ta dostopna samo iz trenutnega projekta (assembly) in iz podrazredov tega razreda (assembly).
@@ -146,5 +141,3 @@ public class Oseba {
         Console.WriteLine("Pozdravljen!");
     }
 }
-
-//////////////////////////////////////////////////////////////////////////////////////

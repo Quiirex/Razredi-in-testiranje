@@ -16,8 +16,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        
-
         int prvo = 42; 
         int drugo = 7;
         int najvecje = vecje(prvo, drugo);

@@ -19,7 +19,6 @@ public class Main {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Private (zasebno):
 // Če deklarirate spremenljivko ali metodo kot "private",
 // je ta dostopna samo iz razreda, v katerem je bila deklarirana.
@@ -73,7 +72,6 @@ public class Main {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Protected (zaščiteno):
 // Če deklarirate spremenljivko ali metodo kot "protected",
 // je ta dostopna samo iz razreda, v katerem je bila deklarirana,
@@ -104,7 +102,6 @@ public class Main {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Default (privzeto):
 // Če deklarirate spremenljivko ali metodo brez modifikatorja dostopa,
 // je ta dostopna samo iz razreda, v katerem je bila deklarirana,
@@ -116,5 +113,3 @@ public class Oseba {
         System.out.println("Pozdravljen!");
     }
 }
-
-//////////////////////////////////////////////////////////////////////////////////////

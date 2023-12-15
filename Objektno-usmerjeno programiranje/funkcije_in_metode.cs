@@ -9,7 +9,6 @@ void Pozdravi(string ime)
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Metode:
 // Metode so funkcije, ki so definirane znotraj razreda.
 
@@ -22,7 +21,6 @@ class Program
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Vračanje vrednosti
 // Funkcije lahko vračajo vrednosti.
 
@@ -37,7 +35,6 @@ string Pozdravi(string ime)
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Argumenti funkcije:
 // Funkcije sprejemajo argumente (parametre),
 // ki jih lahko uporabljamo v telesu funkcije.
@@ -48,7 +45,6 @@ void Pozdravi(string ime)
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Overload funkcij:
 // Definiramo lahko več funkcij z istim imenom, 
 // vendar z različnim številom ali tipom argumentov. 
@@ -65,7 +61,6 @@ void Pozdravi(string ime, string priimek)
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Rekurzija:
 // Funkcija lahko kliče sama sebe, kar imenujemo rekurzija.
 
@@ -79,7 +74,6 @@ int Fib(int n)
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Statične metode:
 // Ko je beseda "static" uporabljena v definiciji metode (na primer public static void myMethod()), 
 // pomeni, da metoda pripada razredu samemu, ne pa tudi posameznim primerkom razreda. 
@@ -99,7 +93,6 @@ public class Calculator
 int rezultat = Calculator.Add(5, 3);
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Statične spremenljivke:
 // Ko je beseda "static" uporabljena v definiciji spremenljivke (na primer public static int myVar;),
 // pomeni, da spremenljivka pripada razredu samemu, ne pa tudi posameznim primerkom razreda.
@@ -113,7 +106,6 @@ public class Counter
 Counter.Count++;
 
 //////////////////////////////////////////////////////////////////////////////////////
-
 // Statični blok kode:
 // Ko je beseda "static" uporabljena v definiciji bloka kode (na primer static { ... }),
 // pomeni, da se bo ta blok kode izvedel samo enkrat, ko se bo razred naložil v pomnilnik.
@@ -126,5 +118,3 @@ public class MyStaticClass
         Console.WriteLine("Staticni konstruktor se izvaja.");
     }
 }
-
-//////////////////////////////////////////////////////////////////////////////////////
