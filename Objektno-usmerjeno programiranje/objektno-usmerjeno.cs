@@ -61,13 +61,13 @@ public class Oseba
     public int Starost { get; set; }
 }
 
-// Nato ustvarimo objekt:
+// Nato ustvarimo "objekt":
 
-Oseba oseba1 = new Oseba();
+Oseba oseba1 = new Oseba(); // oseba1 je v bistvu ime reference, ki kaže na objekt
 oseba1.Ime = "Janez";
 oseba1.Starost = 20;
 
-// Nato uporabimo objekt:
+// Nato uporabimo "objekt":
 public static void Main()
 {
     Oseba oseba1 = new Oseba();

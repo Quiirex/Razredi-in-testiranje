@@ -53,7 +53,7 @@ public class Oseba {
 
 // Nato ustvarimo objekt:
 
-Oseba oseba1 = new Oseba();
+Oseba oseba1 = new Oseba(); // oseba1 je v bistvu ime reference, ki kaže na objekt
 oseba1.ime = "Janez";
 oseba1.starost = 20;
 
