@@ -16,26 +16,26 @@ public class Oseba {
 }
 
 //////////////////////////////////////////////////////////////////////////////////////
-// Fieldi (Fields):
-// Fieldi so (skoraj vedno) zasebni za razred in 
+// Atributi (Atributes):
+// Atributi so (skoraj vedno) zasebni za razred in 
 // dostopni prek metod get<Lastnost> in set<Lastnost>.
 // Lastnosti zagotavljajo raven abstrakcije, 
-// ki omogoča spreminjanje fieldov, 
+// ki omogoča spreminjanje Atributov, 
 // ne da bi vplivale na zunanji način, kako do njih dostopajo stvari, 
 // ki uporabljajo vaš razred.
 
 public class Razred {
-    // to je field.  Je zaseben za razred in hrani dejanske podatke.
-    private String _mojField;
+    // to je Atribut.  Je zaseben za razred in hrani dejanske podatke.
+    private String _mojAtribut;
 
-    // to je lastnost. Ko do nje dostopate, uporablja osnovni field,
-    // vendar izpostavi samo "pogodbo", na katero osnovni field ne bo vplival.
+    // to je lastnost. Ko do nje dostopate, uporablja osnovni Atribut,
+    // vendar izpostavi samo "pogodbo", na katero osnovni Atribut ne bo vplival.
     public String getMojaLastnost() {
-        return _mojField;
+        return _mojAtribut;
     }
 
     public void setMojaLastnost(String mojaLastnost) {
-        this._mojField = mojaLastnost;
+        this._mojAtribut = mojaLastnost;
     }
 }
 
